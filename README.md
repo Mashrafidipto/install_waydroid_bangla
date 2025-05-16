@@ -1,5 +1,6 @@
 # Install waydroid
-Whatsapp লিনাক্সে ব্যবহার করার জন্য সবচেয়ে ভাল উপায় হল waydroid ব্যবহার করা ।
+
+Waydroid এর মধ্যমে আপনি whatsapp সহ এরও অনেক App ব্যবহার করতে পারবেন :
 
 waydroid ইন্সটল করার একটা সহজ গাইড ->
 
