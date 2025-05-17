@@ -75,4 +75,19 @@ sudo firewall-cmd --zone=trusted --add-forward
 sudo firewall-cmd --zone=trusted --add-interface=waydroid0
 sudo firewall-cmd --runtime-to-permanent
 ```
+
+6. এর পর গুগল আপ ব্যবহার করার জন্য আপনার এই ডিভাইস অ্যাড করতে হবে গুগল এর সার্ভারে | এটা করার সবচেয়ে ভাল উপায় হল [waydroid Script](https://github.com/casualsnek/waydroid_script) ব্যবহার করা । 
+
+
+```bash
+git clone https://github.com/casualsnek/waydroid_script
+cd waydroid_script
+python3 -m venv venv
+venv/bin/pip install -r requirements.txt
+sudo venv/bin/python3 main.py
+
+```
+এখান থেকে আপনার ডিভাইস অ্যাড করতে পারবেন ।
+
+
 এই আর্টিকেল Gemini এবং [Archwiki](https://wiki.archlinux.org/title/Waydroid) এর সাহায্যে লেখা হয়েছে |
