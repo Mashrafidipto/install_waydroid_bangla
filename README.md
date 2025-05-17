@@ -38,11 +38,11 @@ yay -S waydroid-image-gapps
 
 ইনস্টলেশন এবং ফায়ারওয়াল কনফিগারেশন সম্পন্ন হওয়ার পর, আপনাকে Waydroid ইনিশিয়ালাইজ করতে হবে এবং কন্টেইনার পরিষেবা শুরু করতে হবে।
 
-	* Waydroid ইনিশিয়ালাইজ করুন। ইনস্টল করা GApps ইমেজ স্বয়ংক্রিয়ভাবে সনাক্ত হওয়া উচিত	:
+ Waydroid ইনিশিয়ালাইজ করুন। ইনস্টল করা GApps ইমেজ স্বয়ংক্রিয়ভাবে সনাক্ত হওয়া উচিত	:
 ```bash
 sudo waydroid init
 ```
-	* systemd এর মাধ্যমে waydroid চালু করা :
+ systemd এর মাধ্যমে waydroid চালু করা :
 ```bash
 sudo systemctl enable --now waydroid-container
 ```
